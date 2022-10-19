@@ -21,6 +21,14 @@
     padding: 3rem;
     margin-top: 2rem;
     font-size: 2rem;
-    display: none;
     border: 1px solid black;
+}
+
+.d-none{
+    display: none;
+}
+
+.counter{
+    padding: 1 rem;
+    background-color: red;
 }
