@@ -17,7 +17,7 @@ console.log(number);
 
 /* Aggiungo un addEventListener al click sul bottone  */
 
-/* bottoneGeneratore.addEventListener('click', function () {
+bottoneGeneratore.addEventListener('click', function () {
 
     numberBox.innerHTML = ''
     console.log("Bottone cliccato");
@@ -25,7 +25,7 @@ console.log(number);
     numberBox.style.display = 'flex'
 
     
-/* })  */
+
 
 /* /* Visualizzare in pagina 5 numeri casuali. */
 
@@ -99,5 +99,27 @@ function timeMemory() {
     console.log(userNumbersArray);
 }
 
-
+}) 
 /* Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati. */
+
+
+
+/* ---------------------------------------------------------- */
+
+
+/* Correzione Fabio */
+
+/* Selezioniamo un elemento della dom dove insieriee number con queryselector 
+
+const numbersElement = document.querySelector('.numbers')
+
+const randomNumbers = generateNumbers()
+
+function generateNumbers(){
+    const numbers = []
+    while (numbers.length !== 5 ) {
+        const randomNumber = generateRandomNumber (min, max)
+    if (!numbers.includes(randomNumber)) {
+        numbers.push
+    }    }
+} */
